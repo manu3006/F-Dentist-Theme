@@ -82,7 +82,7 @@
 
 }
 .our_tester_right .before-image::after {
-    content: url(./Vector\ \(2\).svg);
+    content: url(Vector\ \(2\).svg);
     max-width: 182px;
     width: 100%;
     position: absolute;
