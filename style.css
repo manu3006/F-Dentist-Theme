@@ -81,13 +81,13 @@
     z-index: 1;
 
 }
-.our_tester_right .before-image::after {
-    content: 'url(Vector\ \(2\).svg)';
+.our_tester_right .before-image img {
+    content: '';
     max-width: 182px;
     width: 100%;
     position: absolute;
     left: 20%;
-    bottom: 48%;
+    bottom: 51%;
     transform: translate(-50%, -50%);
 }
 
