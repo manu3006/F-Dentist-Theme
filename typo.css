@@ -112,9 +112,10 @@ body{
         .col-1_pargrap i{
             font-size: 72px;
         }
-        .our_tester_right .before-image::after {
-            content: 'url(./Vector\ \(2\).svg)';
+        .our_tester_right .before-image img {
+            content: '';
             max-width: 182px;
+            width: 100%;
             position: absolute;
             left: 35%;
             bottom: 52%;
