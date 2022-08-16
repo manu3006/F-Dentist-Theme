@@ -1,5 +1,5 @@
 .module_one {
-    padding: 100px 0px;
+    padding: 158px 0px 128px;
 }
 
 .module_one .counter {
@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    padding: 0px 20px;
 }
 
 .module_one .counter {
@@ -51,7 +52,7 @@
 
 .module_two  {
     background-color: #E7F2FE;
-    padding: 150px 0px;
+    padding: 163px 0px 150px;
 
 }
 
@@ -87,7 +88,7 @@
     width: 100%;
     position: absolute;
     left: 20%;
-    bottom: 51%;
+    bottom: 58%;
     transform: translate(-50%, -50%);
 }
 
@@ -120,14 +121,14 @@ font-size: 15px;
 color: #63646C;
 
 line-height: 1.5;
-margin-bottom: 30%;
+margin-bottom: 12%;
 }
 
 
 .our_tester_right::before{
     content: '';
     position: absolute;
-    top: 20px;
+    top: -22px;
     left: 13px;
     width: 65px;
     height: 70px;
@@ -140,7 +141,7 @@ margin-bottom: 30%;
 .before-right::after{
     content: '';
     position: absolute;
-    top: 38px;
+    top: -2px;
     left: 33px;
     width: 28.69px;
     height: 35.25px;
