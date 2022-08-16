@@ -68,6 +68,7 @@
       <div class="content-wrapper">
         <div class="our_tester_right">
           <div class="before-right"></div>
+          <div class="before-image"></div>
 
           <div class="our_tester_head">
             <h1>Our <span>Testimonials</span></h1>
@@ -161,7 +162,7 @@
     });
 
     $(".our_tester").slick({
-      dots: false,
+      dots: true,
       arrows: false,
       infinite: true,
       speed: 1000,
@@ -174,10 +175,10 @@
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
+            slidesToShow: 2,
+            slidesToScroll: 2,
             infinite: true,
-            dots: false,
+            dots: true,
             variableWidth: false,
           },
         },
@@ -186,6 +187,7 @@
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
+            dots: true,
           },
         },
         {
@@ -193,6 +195,7 @@
           settings: {
             variableWidth: false,
             slidesToShow: 1,
+            dots: true,
             slidesToScroll: 1,
           },
         },

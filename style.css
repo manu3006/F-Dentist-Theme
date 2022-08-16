@@ -81,11 +81,22 @@
     z-index: 1;
 
 }
+.our_tester_right .before-image::after {
+    content: url(./Vector\ \(2\).svg);
+    max-width: 182px;
+    width: 100%;
+    position: absolute;
+    left: 20%;
+    bottom: 48%;
+    transform: translate(-50%, -50%);
+}
 
 .our_tester_head {
     max-width: 580px;
    margin-left: auto;
    position: relative;
+   z-index: 1;
+   margin-bottom: 50px;
 }
 
 .our_tester_head h1 {
@@ -109,12 +120,10 @@ font-size: 15px;
 color: #63646C;
 
 line-height: 1.5;
-margin-bottom: 80px;
+margin-bottom: 30%;
 }
-.our_tester_right{
-    position: relative;
-    z-index: 1;
-}
+
+
 .our_tester_right::before{
     content: '';
     position: absolute;
@@ -143,6 +152,28 @@ margin-bottom: 80px;
 
 
 }
+ul.slick-dots {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    list-style-type: circle;
+    font-size: 24px;
+    letter-spacing: 31px;
+    gap: 26px;
+    color: #C4C4C4;
+    margin-top: 20px;
+}
+li.slick-active {
+color: rgb(236, 37, 77);}
+ul li button{
+    display: none;
+}
+   
+
 
 
 .main_tester {
